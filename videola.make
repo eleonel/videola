@@ -214,11 +214,11 @@ libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
 ; Download jquery.cycle as a library
-libraries[jquery.cycle][download][type] = "get"
-libraries[jquery.cycle][download][url]  = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
-libraries[jquery.cycle][directory_name] = "jquery.cycle"
-libraries[jquery.cycle][download][filename] = "jquery.cycle.all.min.js"
-libraries[jquery.cycle][destination]    = "libraries"
+;libraries[jquery.cycle][download][type] = "get"
+;libraries[jquery.cycle][download][url]  = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
+;libraries[jquery.cycle][directory_name] = "jquery.cycle"
+;libraries[jquery.cycle][download][filename] = "jquery.cycle.all.min.js"
+;libraries[jquery.cycle][destination]    = "libraries"
 
 ; Patches
 projects[ubercart][patch][] = 'http://drupal.org/files/issues/ubercart_api.patch'
